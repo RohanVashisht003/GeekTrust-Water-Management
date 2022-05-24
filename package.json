@@ -1,0 +1,17 @@
+{
+  "name": "water-management-geektrust",
+  "version": "1.0.0",
+  "description": "manage water in apartment",
+  "main": "geektrust.js",
+  "scripts": {
+    "start": "node geektrust.js",
+    "test": "mocha"
+  },
+  "author": "Rohan Sharma",
+  "license": "ISC",
+
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "mocha": "^6.2.0"
+  }
+}
