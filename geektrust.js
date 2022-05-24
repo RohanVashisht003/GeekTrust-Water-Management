@@ -61,7 +61,7 @@ let bill = () => {
         (guestWaterConsumption);
         totalWater = Math.round(totalWater);
 
-    return `${totalWater}, ${totalBill}`;
+    return `${totalWater} ${totalBill}`;
 }
 
 
