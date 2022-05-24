@@ -96,5 +96,3 @@ let runner = (input) =>{
 // using fs module to readfile and sending input string to runner function
 data = fs.readFileSync(process.argv[2]).toString();
 runner(data);
-
-console.log(data)
